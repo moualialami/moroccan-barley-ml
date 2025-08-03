@@ -108,10 +108,12 @@ python src/train_decision_tree.py
 python src/train_random_forest.py
 python src/train_linear_regression.py
 ```
-## Project Structure
 
 ---
 
+## Project Structure
+
+```
 moroccan-barley-ml/
 ├── data/
 │   ├── raw/
@@ -133,6 +135,7 @@ moroccan-barley-ml/
 │   └── test_data_quality.py
 ├── requirements.txt
 └── README.md
+```
 
 
 ## License
