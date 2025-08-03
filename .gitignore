@@ -1,0 +1,31 @@
+# .gitignore
+
+# Development environments
+.venv/
+venv/
+.env
+*.pyc
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints
+
+# IDE specific files
+.DS_Store
+.idea/
+.vscode/
+
+# Model binaries (large files)
+*.joblib
+models/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs and outputs
+*.log
+*.sqlite
+
+
+# !data/raw/
+# !data/processed/
