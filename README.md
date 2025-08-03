@@ -108,7 +108,7 @@ python src/train_decision_tree.py
 python src/train_random_forest.py
 python src/train_linear_regression.py
 ```
-📂 Project Structure
+## Project Structure
 
 ---
 
@@ -135,11 +135,11 @@ moroccan-barley-ml/
 └── README.md
 
 
-## 📜 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - Inspired by Morocco’s agroecological diversity
 
