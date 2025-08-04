@@ -79,10 +79,9 @@ Synthetic dataset with **1500 observations** and realistic ranges for Moroccan a
 
 - Python 3.8+
 - pandas, numpy, matplotlib
-- scikit-learn, xgboost
-- Jupyter notebooks (EDA)
+- scikit-learn
 - Modular Python scripts (`src/`)
-- Tested with `pytest` (optional)
+- Tested with `pytest` 
 
 ---
 
@@ -103,6 +102,8 @@ pip install -r requirements.txt
 # Run data pipeline
 python src/data_preprocessing.py
 python src/feature_engineering.py
+
+# Train models
 python src/train_gradient_boosting.py
 python src/train_decision_tree.py
 python src/train_random_forest.py
