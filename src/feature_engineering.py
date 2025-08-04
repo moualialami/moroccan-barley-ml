@@ -93,8 +93,8 @@ def save_artifacts(features_df: pd.DataFrame, preprocessor: ColumnTransformer):
     """Save engineered features and preprocessing pipeline"""
     features_df.to_parquet(FEATURES_DATA_PATH)
     joblib.dump(preprocessor, MODELS_DIR / "feature_preprocessor.joblib")
-    print(f"✅ Saved features to {FEATURES_DATA_PATH}")
-    print(f"✅ Saved preprocessor to {MODELS_DIR / 'feature_preprocessor.joblib'}")
+    print(f"Saved features to {FEATURES_DATA_PATH}")
+    print(f"Saved preprocessor to {MODELS_DIR / 'feature_preprocessor.joblib'}")
 
 
 def analyze_features(df: pd.DataFrame):
@@ -122,26 +122,26 @@ def analyze_features(df: pd.DataFrame):
 
 
 def main():
-    print("🚀 Starting feature engineering pipeline...")
+    print("Starting feature engineering pipeline...")
 
     # Load and validate data
     df = load_data()
-    print(f"📊 Loaded data with shape: {df.shape}")
+    print(f"Loaded data with shape: {df.shape}")
 
     # Feature creation
     df = create_features(df)
-    print("🔧 Engineered new features")
+    print("Engineered new features")
 
     # Preprocessing
     features_df, preprocessor = preprocess_features(df)
-    print(f"🧹 Preprocessed features. New shape: {features_df.shape}")
+    print(f"Preprocessed features. New shape: {features_df.shape}")
 
     # Save artifacts
     save_artifacts(features_df, preprocessor)
 
     # Analysis (optional)
     analyze_features(df)
-    print(f"📈 Feature analysis plots saved to {PLOTS_DIR}")
+    print(f"Feature analysis plots saved to {PLOTS_DIR}")
 
 
 if __name__ == "__main__":
