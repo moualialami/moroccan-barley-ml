@@ -79,7 +79,6 @@ We used **Permutation Importance** to identify which factors most affect barley 
 | Soil Nitrogen Content (%) | 0.156                                  |
 | Organic Matter (%)        | 0.102                                  |
 
-![Feature Importance Plot](reports/figures/feature_importance.png)
 
 **Key Insights**:
 - Soil properties (pH, nitrogen) dominate yield predictions
