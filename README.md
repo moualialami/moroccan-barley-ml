@@ -10,7 +10,7 @@ This project demonstrates how machine learning can be applied to predict **barle
 
 ---
 
-## 📌 Project Summary
+##  Project Summary
 
 This repository provides a full ML pipeline to simulate precision agriculture applications, specifically for barley yield prediction, using realistic input variables:
 
@@ -19,11 +19,11 @@ This repository provides a full ML pipeline to simulate precision agriculture ap
 - **Farm management** (fertilizer rates, seed density, crop variety)
 - **Geographical context** (regions, soil types)
 
-🎯 **Goal**: Showcase how data science can support data-driven decision-making in dryland agriculture.
+ **Goal**: Showcase how data science can support data-driven decision-making in dryland agriculture.
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - End-to-end pipeline: data cleaning → feature engineering → ML modeling
 - Comparative analysis of 4 ML models
@@ -33,7 +33,7 @@ This repository provides a full ML pipeline to simulate precision agriculture ap
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 Synthetic dataset with **1500 observations** and realistic ranges for Moroccan agronomy.
 
@@ -67,7 +67,7 @@ Synthetic dataset with **1500 observations** and realistic ranges for Moroccan a
 
 ---
 
-## 📈 Results Snapshot
+##  Results Snapshot
 
 - Random Forest outperformed baseline and linear models (R² ≈ 0.81)
 - Most influential factors: **rainfall**, **soil pH**, and **fertilizer NPK**
@@ -75,7 +75,7 @@ Synthetic dataset with **1500 observations** and realistic ranges for Moroccan a
 
 ---
 
-## 🛠 Technical Stack
+##  Technical Stack
 
 - Python 3.8+
 - pandas, numpy, matplotlib
@@ -86,7 +86,7 @@ Synthetic dataset with **1500 observations** and realistic ranges for Moroccan a
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone the repo
@@ -146,7 +146,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 - Inspired by Morocco’s agroecological diversity
 
-📬 Contact
+ Contact
 
 - Mohammed OUALI ALAMI
 - Email: ouali.alami.mohammed@gmail.com
